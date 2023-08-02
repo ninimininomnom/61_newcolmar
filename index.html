@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colmar Academe</title>
-    <link rel="stylesheet" href="stlye.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -24,10 +27,10 @@
       </ul>
       <!-- mobile path -->
         <div class="mobile">
-        <a href="#"><img src="/assets/images/ic-logo.svg" alt="colmar logo"/></a>
-        <a href="#"><img src="../capstone_colmar_assets/images/ic-on-campus.svg" alt="campus icon"/></a>
-        <a href="#"><img src="../capstone_colmar_assets/images/ic-online.svg" alt="online icon"/></a>
-        <a href="#"><img src="../capstone_colmar_assets/images/ic-login.svg" alt="login"/></a>
+        <a href="#"><img src="./assets/ic-logo.svg" alt="colmar logo"/></a>
+        <a href="#"><img src="./assets/ic-on-campus.svg" alt="campus icon"/></a>
+        <a href="#"><img src="./assets/ic-online.svg" alt="online icon"/></a>
+        <a href="#"><img src="./assets/ic-login.svg" alt="login"/></a>
         </div>
       </nav>
  </header>
@@ -35,7 +38,7 @@
     <!-- first content -->
     <section class="learn-container">
         <div class="learn-left">
-            <img src="../capstone_colmar_assets/images/banner.jpg" alt="banner pic">
+            <img src="./assets/banner.jpg" alt="banner pic">
         </div>
         <div class="learn-right">
             <h1>Learn somthing new everyday</h1>
@@ -44,16 +47,191 @@
         </div>
     </section>
      <!-- second content -->
-    <section class="">
-       
-
-
+    <section class="orientation-container">
+        <article class="orientation-left">
+            <img src="./assets/information-main.jpg" alt="black guy white"/>
+            <div class="orientation-left-info">
+             <h2>It doesn't hurt to heep precticing</h2>
+             <p>
+                "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+                commodo lectus, nec consequat neque. Sed non accumsan urna.
+                Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+                dolor consequat, tristique ligula."
+              </p>
+              <p>Emanuel, Sr Strategist at Hiring.com</p>
+            </div>
+        </article>
+        <!-- content-right -->
+    <section class="orientation-right"> 
+        <div class="orientation-date">
+        <div class="orientation-img">
+            <img class="orientation-img-left-desktop" src="./assets/information-orientation.jpg" alt="shadows of people"> 
+            <img class="orientation-img-left-mobile" src="./assets/information-orientation-mobile.jpg" alt="shadows of people"> 
+        </div>
+        <div class="orientation-info">
+            <h4>Orientation date</h4>
+            <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+            <button>
+                <a href="">Read more</a>
+            </button>
+         </div>
+        </div>
+        <div class="campus">
+            <div class="campus-img">
+              <img class="campus-left-desktop" src="./assets/information-campus.jpg" alt="people sitting ">
+              <img class="campus-left-mobile" src="./assets/information-campus-mobile.jpg" alt=" people sitting ">
+            </div>
+            <div class="campus-info">
+              <h4>Our campus</h4>
+              <p>Find which campus is close by you</p>
+              <button><a href="">Read more</a></button>
+            </div>
+          </div>
+          <div class="guest">
+            <div class="guest-img">
+              <img class="guest-left-desktop" src="./assets/information-guest-lecture.jpg" alt="Pic of a professor">
+              <img class="guest-left-mobile" src="./assets/information-guest-lecture-mobile.jpg" alt="Pic of a professor">
+            </div>
+            <div class="guest-info">
+              <h4>Our guest lecture</h4>
+              <p>
+                Join a keynote with Oliver Sack about music in medical treatment
+              </p>
+              <button><a href="">Read more</a></button>
+            </div>
+          </div>
+        </section>
     </section>
+     <!-- third content -->
+     <section class="start-learn-container">
+        <h1>Start learning</h1>
+        <div class="start-learn-g-w">
+          <div class="start-learn-1">
+            <div class="start-learn-img">
+              <img src="./assets/course-software.jpg" alt="computer screen">
+            </div>
+            <div class="sstar-learn-info">
+              <h4>Software engineering</h4>
+              <p>COURSES</p>
+              <p>Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+          </div>
+          <div class="start-learn-2">
+            <div class="start-learn-img">
+              <img src="./assets/course-computer-art.jpg" alt=" mobile phone">
+            </div>
+            <div class="start-learn-info">
+              <h4>Computer art</h4>
+              <p>COURSES</p>
+              <p>Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+          </div>
+          <div class="start-learn-3">
+            <div class="start-learn-img">
+              <img src="./assets/course-design.jpg" alt="camera man">
+            </div>
+            <div class="start-learn-info">
+              <h4>Design</h4>
+              <p>COURSES</p>
+              <p>User Experience Design, User Research, Visual Design</p>
+            </div>
+          </div>
+          <div class="start-learn-4">
+            <div class="start-learn-img">
+              <img src="./assets/course-data.jpg" alt="laptop screen">
+            </div>
+            <div class="star-learn-info">
+              <h4>Data</h4>
+              <p>COURSES</p>
+              <p>Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
+          </div>
+          <div class="start-learn-5">
+            <div class="start-learn-img">
+              <img src="./assets/course-business.jpg" alt="Chess pic">
+            </div>
+            <div class="star-learn-info">
+              <h4>Business</h4>
+              <p>COURSES</p>
+              <p>Product Development, Business Development, Startup</p>
+            </div>
+          </div>
+          <div class="start-learn-6">
+            <div class="start-learn-img">
+              <img src="./assets/course-marketing.jpg" alt="Sapple watch">
+            </div>
+            <div class="start-learn-info">
+              <h4>Marketing</h4>
+              <p>COURSES</p>
+              <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
+          </div>
+        </div>
+        <div class="start-learn-mobile">
+          <a href=""><div class="start-learn-1-mobile">
+              <h1>Software engineering</h1>
+            </div></a>
+          <a href=""><div class="start-learn-2-mobile">
+              <h1>Computer art</h1>
+            </div></a>
+          <a href=""><div class="start-learn-3-mobile">
+              <h1>Design</h1>
+            </div></a>
+          <a href=""><div class="start-learn-4-mobile"><h1>Data</h1></div></a>
+          <a href=""><div class="start-learn-5-mobile"><h1>Business</h1></div></a>
+          <a href=""><div class="start-learn-6-mobile"><h1>Marketing</h1></div></a>
+        </div>
+      </section>
 
+     <!-- thesis content -->
+     <section class="thesis-container">
+        <h1>Thesis exhibit</h1>
+        <div class="thesis-g">
+          <article class="thesis-urban">
+            <div class="thesis-urban-video">
+              <video src="./assets/videos/thesis-urban-video" controls=""></video>
+            </div>
+            <div class="thesis-urban-info">
+              <h4>Reimagine urban</h4>
+              <p>
+                "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+                commodo lectus, nec consequat neque. Sed non accumsan urna.
+                Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+                dolor consequat, tristique ligula."
+              </p>
+            </div>
+          </article>
+          <article class="thesis-2-container">
+            <div class="thesis-fisma">
+              <div class="thesis-fisma-img">
+                <img src="./assets/thesis-fisma.jpg" alt=" paper">
+              </div>
+              <div class="thesis-fisma-info">
+                <h4>Fisma: Design and Prototype</h4>
+                <p>Designer showcase of new prototype product</p>
+              </div>
+            </div>
+            <div class="thesis-now-and-then">
+              <div class="thesis-nt-img">
+                <img src="./assets/thesis-now-and-then.jpg" alt="Image building">
+              </div>
+              <div class="thesis-nt-info">
+                <h4>Now and then</h4>
+                <p>Research study about New York</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
 
-
-
-
+      <!-- footer content -->
+      <footer>
+        <p>@ 2016 Colmar Academy. All rights reserved</p>
+        <ul>
+          <a href=""><li>Terms</li></a>
+          <a href=""><li>Privacy</li></a>
+        </ul>
+      </footer>
  </main>
 </body>
 </html>
