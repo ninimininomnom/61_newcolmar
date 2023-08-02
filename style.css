@@ -136,9 +136,9 @@
 
 }
 
-.orientation-info>* , .campus-info >* , .guest-info>* {
+/* .orientation-info>* , .campus-info >* , .guest-info>* {
     padding: 16px;
-}
+} */
 .guest{
     background-color: grey;
     margin: 8px;
@@ -170,5 +170,95 @@
 .start-learn-img {
     width:100%;
 }
+.start-learn-g-w >* {
+ display: flex;
+ flex-direction: column;
+}
+.start-learn-info {
+    background-color: white;
+    padding: 16px;
+}
+.start-learn-info>*{
+    padding: 8px;
+}
+.start-learn-info > p {
+    font-size:small;
+    color:grey;
+}
+.start-learn-mobile {
+    display: none;
+}
 
+/* <!-- thesis content --> */
 
+.thesis-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3%;
+}
+/* .thesis-urban-video{
+    width: 100%;
+} */
+/* .thesis-urban-info{
+    padding: 1% 0 5% 0;
+}
+.thesis-urban-info > *{
+    padding: 1% 0;
+}
+.thesis-urban-info > p {
+    color: grey;
+}
+.thesis-2-container {
+    display: flex;
+    flex-direction: column;
+}
+.thesis-2-container img {
+    width: auto;
+}
+.thesis-2-container p {
+    color: #000;
+}
+.thesis-fisma,.thesis-now-and-then {
+    display: flex;
+    padding: 5%;
+}
+.thesis-fisma{
+    background-color: grey;
+}
+.thesis-fisma-info, .thesis-nt-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.thesis-fisma-info >*, .thesis-nt-info >* {
+    padding: 1%;
+    margin:5% 8%;
+} */
+
+ /* footer */
+
+ footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    margin-bottom: 1%;
+ }
+ footer >* {
+    color: #000;
+    margin-top: 0%;
+ }
+ footer ul {
+    display: flex;
+    list-style: none;
+ }
+ footer a {
+    text-decoration: none;
+    color: #000;
+ }
+ footer li {
+    padding: 0%;
+ }
+  
+  /* mobile path */
+
+  
